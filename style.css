@@ -1,1 +1,33 @@
+.header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.header-links a {
+    color: #e5e7eb
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 
