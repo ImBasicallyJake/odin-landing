@@ -159,6 +159,7 @@ span {
 
 .quote {
     display: flex;
+    margin-top: 50px;
      width: 600px;
     height: 200px;
     font-size: 36px;
