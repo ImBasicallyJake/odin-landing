@@ -12,6 +12,7 @@
     color: #f9faf8;
     font-size: 24px;
     margin-left: 200px;
+    
 }
 
 .header-links {
@@ -147,10 +148,12 @@ span {
 .quote-container {
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     align-self: stretch;
     background-color: #e5e7eb;
-    height: 600px;
+    height: 300px;
+    margin-bottom: 50px;
 
 }
 
@@ -162,15 +165,73 @@ span {
     color:#1F2937;
     font-style: italic;
     font-weight: lighter;
+    margin-bottom: 5px;
 }
 
 .person {
     display: flex;
-    align-self: flex-end;
-    width: 600px;
+   justify-content: flex-end;
+     width: 600px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 
+/*Footer*/
 
+footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.CTA-Cont {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    background-color: #3882f6;
+    border-radius: 10px;
 
+}
 
+    h3 {
+        margin-bottom: 0px;
+        color: white;
+    }
 
+    p {
+        margin-top: 0px;
+        color: white;
+    }
+
+    .CTA {
+        margin-left: 50px;
+       
+    }
+
+  .cta-button {
+        display: flex;
+        margin-right: 75px;
+        background-color: #3882f6;
+        height: 25px;
+       
+             
+    }
+
+    .cta-signup {
+        background-color: #3882f6;
+        border-style: solid;
+        border-color: white;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        width: 100px;
+
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: #1F2937;
+    }
